@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Зубов](https://up.htmlacademy.ru/adaptive/12/user/29353).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Тубольцев] (https://htmlacademy.ru/profile/id86460).
 
 ---
 
