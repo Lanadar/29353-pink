@@ -7,22 +7,24 @@
   <body>
 
     <header class="page-header">
-      <a class="page-header__logo">Pink</a>
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Мобильное приложение «Пинк»">
+      </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active">
-              <a class="site-list__link">Главная</a>
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item--active">
+              <a class="main-nav__link">Главная</a>
             </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="photo.html">Фотографии</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="photo.html">Фотографии</a>
             </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="form.html">Конкурс</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="form.html">Конкурс</a>
             </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
             </li>
           </ul>
         </div>
@@ -33,16 +35,30 @@
 
       <section class="banner">
         <h1 class="visually-hidden">Мобильное приложение «Пинк»</h1>
-        <img class="banner__image" src="http://placehold.it/320x314" width="320" height="314" alt="Мобильное приложение «Пинк»">
+        <div class="banner__image-wrapper">
+          <img class="banner__image" src="http://placehold.it/320x314" width="320" height="314" alt="Мобильное приложение «Пинк»">
+        </div>
       </section>
 
       <section class="downloads">
         <h2 class="visually-hidden">Загрузить мобильное приложение «Пинк»</h2>
         <a class="downloads__button" href="https://www.apple.com/itunes/">Скачать приложение</a>
         <ul class="downloads__list">
-          <li class="downloads__item"><a class="downloads__link" href="https://www.apple.com/itunes/"><img src="http://placehold.it/47x56" width="47" height="56" alt="Скачать приложение для iOS"></a></li>
-          <li class="downloads__item"><a class="downloads__link" href="https://play.google.com/store"><img src="http://placehold.it/43x47" width="43" height="47" alt="Скачать приложение для Android"></a></li>
-          <li class="downloads__item"><a class="downloads__link" href="https://www.microsoft.com/ru-ru/store/apps/windows-phone"><img src="http://placehold.it/44x41" width="44" height="41" alt="Скачать приложение для Windows"></a></li>
+          <li class="downloads__item">
+            <a class="downloads__link" href="https://www.apple.com/itunes/">
+              <div class="downloads__icon downloads__icon--ios"></div>
+            </a>
+          </li>
+          <li class="downloads__item">
+            <a class="downloads__link" href="https://play.google.com/store">
+              <div class="downloads__icon downloads__icon--android"></div>
+            </a>
+          </li>
+          <li class="downloads__item">
+            <a class="downloads__link" href="https://www.microsoft.com/ru-ru/store/apps/windows-phone">
+              <div class="downloads__icon downloads__icon--windows"></div>
+            </a>
+          </li>
         </ul>
         <p class="downloads__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </section>
@@ -65,7 +81,9 @@
             <p class="description__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
-        <img class="description__image" src="http://placehold.it/157x320" width="157" height="320" alt="Мобильное приложение «Пинк»">
+        <div class="description__image iphone">
+          <img class="iphone__image" src="http://placehold.it/157x320" width="157" height="320" alt="Мобильное приложение «Пинк»">
+        </div>
       </section>
 
       <section class="reviews">
@@ -103,9 +121,18 @@
                 <p class="price__value">1,99 USD</p>
               </header>
               <ul class="price__options-list">
-                <li class="price__options-item">Розовый фильтр <img class="price__options-status" src="http://placehold.it/31x21" width="31" height="21" alt="Опция присутствует"></li>
-                <li class="price__options-item">Смайлики <img class="price__options-status" src="http://placehold.it/27x26" width="27" height="26" alt="Опция отсутствует"></li>
-                <li class="price__options-item">Комментарии <img class="price__options-status" src="http://placehold.it/27x26" width="27" height="26" alt="Опция отсутствует"></li>
+                <li class="price__options-item">
+                  Розовый фильтр
+                  <div class="price__options-status price__options-status--yes"></div>
+                </li>
+                <li class="price__options-item">
+                  Смайлики
+                  <div class="price__options-status price__options-status--no"></div>
+                </li>
+                <li class="price__options-item">
+                  Комментарии
+                  <div class="price__options-status price__options-status--no"></div>
+                </li>
               </ul>
             </li>
             <li class="price__item price__item--active slider__item">
@@ -115,9 +142,18 @@
                 <p class="price__value">3,99 USD</p>
               </header>
               <ul class="price__options-list">
-                <li class="price__options-item">Розовый фильтр <img class="price__options-status" src="http://placehold.it/31x21" width="31" height="21" alt="Опция присутствует"></li>
-                <li class="price__options-item">Смайлики <img class="price__options-status" src="http://placehold.it/31x21" width="31" height="21" alt="Опция присутствует"></li>
-                <li class="price__options-item">Комментарии <img class="price__options-status" src="http://placehold.it/27x26" width="27" height="26" alt="Опция отсутствует"></li>
+                <li class="price__options-item">
+                  Розовый фильтр
+                  <div class="price__options-status price__options-status--yes"></div>
+                </li>
+                <li class="price__options-item">
+                  Смайлики
+                  <div class="price__options-status price__options-status--yes"></div>
+                </li>
+                <li class="price__options-item">
+                  Комментарии
+                  <div class="price__options-status price__options-status--no"></div>
+                </li>
               </ul>
             </li>
             <li class="price__item slider__item">
@@ -126,9 +162,18 @@
                 <p class="price__value">9,99 USD</p>
               </header>
               <ul class="price__options-list">
-                <li class="price__options-item">Розовый фильтр <img class="price__options-status" src="http://placehold.it/31x21" width="31" height="21" alt="Опция присутствует"></li>
-                <li class="price__options-item">Смайлики <img class="price__options-status" src="http://placehold.it/31x21" width="31" height="21" alt="Опция присутствует"></li>
-                <li class="price__options-item">Комментарии <img class="price__options-status" src="http://placehold.it/31x21" width="31" height="21" alt="Опция присутствует"></li>
+                <li class="price__options-item">
+                  Розовый фильтр
+                  <div class="price__options-status price__options-status--yes"></div>
+                </li>
+                <li class="price__options-item">
+                  Смайлики
+                  <div class="price__options-status price__options-status--yes"></div>
+                </li>
+                <li class="price__options-item">
+                  Комментарии
+                  <div class="price__options-status price__options-status--yes"></div>
+                </li>
               </ul>
             </li>
           </ul>
@@ -145,11 +190,15 @@
         <p class="contacts__text">Остались вопросы?<br>Свяжитесь с нами!</p>
         <div class="contacts__item">
           <b class="contacts__title">Звоните</b>
-          <p class="contacts__text"><a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a></p>
+          <p class="contacts__text">
+            <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
+          </p>
         </div>
         <div class="contacts__item">
           <b class="contacts__title">Пишите</b>
-          <p class="contacts__text"><a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+          <p class="contacts__text">
+            <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
         </div>
         <div class="contacts__item">
           <b class="contacts__title">Приезжайте в гости:</b>
@@ -157,6 +206,7 @@
         </div>
         <div class="contacts__map"></div>
       </section>
+
     </main>
   </body>
 </html>
