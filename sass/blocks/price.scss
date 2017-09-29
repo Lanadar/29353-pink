@@ -7,7 +7,7 @@
   text-align: center;
 }
 .price__label {
-  background-image: url('/img/bg-hit.svg');
+  background-image: url('../img/bg-hit.svg');
   background-repeat: no-repeat;
   font-size: 14px;
   line-height: 30px;
@@ -19,10 +19,10 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   &--yes {
-    background-image: url('/img/icon-yes.svg');
+    background-image: url('../img/icon-yes.svg');
   }
   &--no {
-    background-image: url('/img/icon-no.svg');
+    background-image: url('../img/icon-no.svg');
   }
 }
 .price__title {

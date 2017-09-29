@@ -4,12 +4,12 @@
 .contacts__map {
   width: 320px;
   height: 421px;
-  background-image: url('/img/bg-map-mobile@1x.png');
+  background-image: url('../img/bg-map-mobile@1x.png');
 }
 .contacts__map-marker {
   width: 36px;
   height: 36px;
-  background-image: url('/img/icon-map-marker.svg');
+  background-image: url('../img/icon-map-marker.svg');
 }
 .contacts__text {
   font-family: $font-light;
