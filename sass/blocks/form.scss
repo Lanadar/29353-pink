@@ -1,0 +1,44 @@
+.form {
+  padding: 50px 20px;
+}
+.form__achievement-wrapper {
+  background-color: #f2f2f2;
+}
+.form__app-wrapper {
+  background-color: #f2f2f2;
+}
+.form__label {
+  color: $dop-color;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.form__legend {
+  color: $dop-color;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+.form__field {
+  font-size: 18px;
+  line-height: 30px;
+}
+.form__label-dop {
+  font-size: 18px;
+  line-height: 30px;
+}
+.form__submit {
+  font-family: $font-bold;
+  font-size: 18px;
+  color: #fff;
+  background-color: #2aab6d;
+  line-height: 30px;
+}
+.form__rules {
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.form__rules sup {
+  color: $dop-color;
+}
+.form__desc {
+  line-height: 30px;
+}

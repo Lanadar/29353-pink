@@ -1,0 +1,20 @@
+.modal {
+  padding: 45px 20px 0;
+}
+.modal__title {
+  font-family: $font-bold;
+  font-size: 18px;
+  lint-height: 24px;
+}
+.modal__button-wrap {
+  background-color: #f2f2f2;
+  padding: 50px 20px;
+}
+.modal__close {
+  font-family: $font-bold;
+  font-size: 18px;
+  lint-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #2aab6d;
+}

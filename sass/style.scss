@@ -1,4 +1,4 @@
-@import "variables/variables.scss";
+@import "helpers/variables.scss";
 @import "main/main.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
@@ -11,6 +11,7 @@
 @import "blocks/slider.scss";
 @import "blocks/price.scss";
 @import "blocks/form.scss";
+@import "blocks/modal.scss";
 @import "blocks/contacts.scss";
 @import "blocks/page-footer.scss";
 @import "blocks/social.scss";

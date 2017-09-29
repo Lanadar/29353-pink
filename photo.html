@@ -9,7 +9,7 @@
 
     <header class="page-header">
       <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Мобильное приложение «Пинк»">
+        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Мобильное приложение «Пинк»">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
@@ -44,7 +44,8 @@
         <ul class="photos__list">
           <li class="photo-item photo-item--wide">
             <a class="photo-item__full-image-link">
-              <img class="photo-item__image" src="http://placehold.it/320x137" width="320" height="137" alt="Фотография пользователя">
+              <div class="photo-item__label">Панорама дня</div>
+              <img class="photo-item__image" src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Фотография пользователя">
             </a>
             <div class="photo-item__title">
               <div class="photo-item__name">Анна</div>
@@ -60,7 +61,7 @@
           </li>
           <li class="photo-item">
             <a class="photo-item__full-image-link">
-              <img class="photo-item__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя">
+              <img class="photo-item__image" src="img/photo-car-mobile@1x.jpg" width="280" height="180" alt="Фотография пользователя">
             </a>
             <div class="photo-item__title">
               <div class="photo-item__name">Левон</div>
@@ -76,7 +77,7 @@
           </li>
           <li class="photo-item">
             <a class="photo-item__full-image-link">
-              <img class="photo-item__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя">
+              <img class="photo-item__image" src="img/photo-drumset-mobile@1x.jpg" width="280" height="180" alt="Фотография пользователя">
             </a>
             <div class="photo-item__title">
               <div class="photo-item__name">Антон</div>
@@ -92,7 +93,7 @@
           </li>
           <li class="photo-item">
             <a class="photo-item__full-image-link">
-              <img class="photo-item__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя">
+              <img class="photo-item__image" src="img/photo-window-mobile@1x.jpg" width="280" height="180" alt="Фотография пользователя">
             </a>
             <div class="photo-item__title">
               <div class="photo-item__name">Борис</div>
@@ -108,7 +109,7 @@
           </li>
           <li class="photo-item">
             <a class="photo-item__full-image-link">
-              <img class="photo-item__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя">
+              <img class="photo-item__image" src="img/photo-fair-mobile@1x.jpg" width="280" height="180" alt="Фотография пользователя">
             </a>
             <div class="photo-item__title">
               <div class="photo-item__name">Сергей</div>
@@ -124,7 +125,7 @@
           </li>
           <li class="photo-item">
             <a class="photo-item__full-image-link">
-              <img class="photo-item__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя">
+              <img class="photo-item__image" src="img/photo-pov-mobile@1x.jpg" width="280" height="180" alt="Фотография пользователя">
             </a>
             <div class="photo-item__title">
               <div class="photo-item__name">Максим</div>
@@ -140,7 +141,7 @@
           </li>
           <li class="photo-item">
             <a class="photo-item__full-image-link">
-              <img class="photo-item__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя">
+              <img class="photo-item__image" src="img/photo-wing-mobile@1x.jpg" width="280" height="180" alt="Фотография пользователя">
             </a>
             <div class="photo-item__title">
               <div class="photo-item__name">Надежда</div>
@@ -161,19 +162,19 @@
       <section class="public">
         <h2 class="visually-hidden">Опубликовать фотографию</h2>
         <form class="public__form" action="https://echo.htmlacademy.ru" method="POST" enctype="multipart/form-data">
-          <img class="public__image" src="http://placehold.it/280x374" width="280" height="374" alt="Опубликовать фотографию">
+          <img class="public__image" src="img/photo-road-mobile@1x.jpg" width="280" height="374" alt="Опубликовать фотографию">
           <input class="visually-hidden" type="file" name="image">
           <ul class="public__filters-list">
             <li class="public__filters-item public__filters-item--active">
-              <img class="public__filters-image" src="http://placehold.it/44x44" width="44" height="44" alt="Обрезать">
+              <img class="public__filters-image" src="img/icon-editor-crop.svg" width="44" height="44" alt="Обрезать">
               <input class="public__range" name="cut" type="range" min="0" max="100" step="1" value="50">
             </li>
             <li class="public__filters-item">
-              <img class="public__filters-image" src="http://placehold.it/48x43" width="48" height="43" alt="Заливка">
+              <img class="public__filters-image" src="img/icon-editor-fill.svg" width="48" height="43" alt="Заливка">
               <input class="public__range" name="fill" type="range" min="0" max="100" step="1" value="50">
             </li>
             <li class="public__filters-item">
-              <img class="public__filters-image" src="http://placehold.it/32x32" width="32" height="32" alt="Яркость">
+              <img class="public__filters-image" src="img/icon-editor-contrast.svg" width="32" height="32" alt="Яркость">
               <input class="public__range" name="bright" type="range" min="0" max="100" step="1" value="50">
             </li>
           </ul>
@@ -186,7 +187,7 @@
 
     <footer class="page-footer">
       <a class="page-footer__logo-link" href="index.html">
-        <img class="page-footer__logo" src="http://placehold.it/147x40" width="147" height="40" alt="Мобильное приложение «Пинк»">
+        <img class="page-footer__logo" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Мобильное приложение «Пинк»">
       </a>
       <ul class="page-footer__social social">
         <li class="social__item">
@@ -208,7 +209,7 @@
       <div class="page-footer__copyright">
         Разработано
         <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img class="page-footer__copyright-image" src="http://placehold.it/147x40" width="147" height="40" alt="HTML Academy">
+          <img class="page-footer__copyright-image" src="img/logo-htmlacademy.svg" width="27" height="34" alt="HTML Academy">
         </a>
       </div>
     </footer>
