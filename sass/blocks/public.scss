@@ -7,9 +7,28 @@
   font-size: 18px;
   color: $dop-color;
   line-height: 18px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid $dop-color;
+  padding: 20px 0;
+  border-radius: 35px;
+  outline: none;
+  width: 320px;
+  max-width: 100%;
+  cursor: pointer;
 }
 .public__cancel {
   font-family: $font-bold;
   font-size: 18px;
+  color: transparentize($dop-color,0.9);
   line-height: 18px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid transparentize($dop-color,0.9);
+  padding: 20px 0;
+  border-radius: 35px;
+  outline: none;
+  width: 320px;
+  max-width: 100%;
+  cursor: pointer;
 }

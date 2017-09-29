@@ -12,10 +12,17 @@
   text-transform: uppercase;
   line-height: 30px;
 }
+.form__textarea-label {
+  color: $dop-color;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: center;
+}
 .form__legend {
   color: $dop-color;
   text-transform: uppercase;
   line-height: 18px;
+  text-align: center;
 }
 .form__field {
   font-size: 18px;
@@ -25,20 +32,15 @@
   font-size: 18px;
   line-height: 30px;
 }
-.form__submit {
-  font-family: $font-bold;
-  font-size: 18px;
-  color: #fff;
-  background-color: #2aab6d;
-  line-height: 30px;
-}
 .form__rules {
   text-transform: uppercase;
   line-height: 30px;
+  text-align: center;
 }
 .form__rules sup {
   color: $dop-color;
 }
 .form__desc {
   line-height: 30px;
+  text-align: center;
 }
