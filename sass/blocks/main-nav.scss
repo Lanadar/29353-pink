@@ -32,3 +32,11 @@
   text-decoration: none;
   color: #fff;
 }
+
+.main-nav__link:hover {
+  color: $second-color;
+}
+
+.main-nav__link:active {
+  color: transparentize($second-color,0.7);
+}

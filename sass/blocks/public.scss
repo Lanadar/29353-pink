@@ -19,6 +19,15 @@
   cursor: pointer;
 }
 
+.public__submit:hover {
+  background-color: $second-color;
+  color: #fff;
+}
+
+.public__submit:active {
+  color: transparentize(#fff,0.7);
+}
+
 .public__cancel {
   font-family: $font-bold;
   font-size: 18px;
@@ -33,6 +42,17 @@
   width: 320px;
   max-width: 100%;
   cursor: pointer;
+}
+
+.public__cancel:hover {
+  color: transparentize($main-color,0.7);
+  border: 2px solid transparentize($main-color,0.7);
+}
+
+.public__cancel:active {
+  background-color: #b5b9be;
+  color: transparentize(#fff,0.7);
+  border: 2px solid #b5b9be;
 }
 
 .public__button-wrap {

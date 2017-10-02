@@ -30,6 +30,15 @@
   line-height: 30px;
   border: 2px solid #e5e5e5;
   padding: 15px 20px;
+  outline: none;
+}
+
+.form__textarea-field:hover {
+  border: 2px solid $main-color;
+}
+
+.form__textarea-field:active, .form__textarea-field:focus {
+  border: 2px solid $second-color;
 }
 
 .form__legend {
@@ -48,6 +57,15 @@
   line-height: 30px;
   border: 2px solid #e5e5e5;
   padding: 15px 20px;
+  outline: none;
+}
+
+.form__field:hover {
+  border: 2px solid $main-color;
+}
+
+.form__field:active, .form__field:focus {
+  border: 2px solid $second-color;
 }
 
 .form__label-select {
