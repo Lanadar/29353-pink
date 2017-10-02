@@ -1,30 +1,40 @@
 .downloads {
   background-color: #1d2631;
-  padding: 28px 20px;
+  padding: 45px 20px 28px;
   text-align: center;
 }
+
 .downloads__icon {
   width: 50px;
   height: 60px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+
   &--ios {
     background-image: url('../img/logo-apple.svg');
   }
+
   &--android {
     background-image: url('../img/logo-android.svg');
   }
+
   &--windows {
     background-image: url('../img/logo-microsoft.svg');
   }
+
 }
+
 .downloads__button {
   font-family: $font-bold;
   font-size: 18px;
   line-height: 18px;
   color: #fff;
   text-decoration: none;
+  border: 3px solid #fff;
+  border-radius: 40px;
+  padding: 15px 40px;
 }
+
 .downloads__text {
   font-family: $font-light;
   color: #fff;

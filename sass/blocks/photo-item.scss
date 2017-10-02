@@ -2,7 +2,9 @@
   background-color: #f2f2f2;
   padding: 25px 20px;
   margin-bottom: 20px;
+  position: relative;
 }
+
 .photo-item__likes-icon {
   width: 13px;
   height: 12px;
@@ -10,30 +12,43 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
 .photo-item__label {
-  background-color: $dop-color;
+  background-color: $second-color;
   font-family: $font-bold;
   font-size: 12px;
   text-transform: uppercase;
   color: #fff;
   line-height: 24px;
+  position: absolute;
+  padding: 5px 20px;
+  top: 0;
+  right: 20px;
 }
+
+.photo-item__image {
+  margin: -25px -20px 0;
+}
+
 .photo-item__name {
   font-family: $font-bold;
   line-height: 24px;
 }
+
 .photo-item__date {
   font-family: $font-light;
   font-size: 12px;
   text-transform: uppercase;
   line-height: 24px;
 }
+
 .photo-item__likes-counter {
   font-size: 12px;
   text-transform: uppercase;
-  color: $dop-color;
+  color: $second-color;
   line-height: 24px;
 }
+
 .photo-item__comment {
   line-height: 24px;
 }

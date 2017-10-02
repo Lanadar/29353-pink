@@ -34,10 +34,10 @@
 
     <main class="page-main">
 
-      <section class="banner">
+      <section class="intro">
         <h1 class="visually-hidden">Мобильное приложение «Пинк»</h1>
-        <div class="banner__image-wrapper">
-          <img class="banner__image" src="img/iphone-hand-mobile@1x.png" width="320" height="314" alt="Мобильное приложение «Пинк»">
+        <div class="intro__image-wrapper">
+          <img class="intro__image" src="img/iphone-hand-mobile@1x.png" width="320" height="314" alt="Мобильное приложение «Пинк»">
         </div>
       </section>
 
@@ -138,7 +138,9 @@
             </li>
             <li class="price__item price__item--active slider__item">
               <header class="price__header">
-                <div class="price__label">Хит</div>
+                <div class="price__label">
+                  <div class="price__label-text">Хит</div>
+                </div>
                 <h3 class="price__title">Стандарт</h3>
                 <p class="price__value">3,99 USD</p>
               </header>
@@ -189,24 +191,26 @@
       <section class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <p class="contacts__text">Остались вопросы?<br>Свяжитесь с нами!</p>
-        <div class="contacts__item">
-          <b class="contacts__title">Звоните</b>
-          <p class="contacts__text">
-            <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
-          </p>
-        </div>
-        <div class="contacts__item">
-          <b class="contacts__title">Пишите</b>
-          <p class="contacts__text">
-            <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          </p>
-        </div>
-        <div class="contacts__item">
-          <b class="contacts__title">Приезжайте в гости:</b>
-          <p class="contacts__text contacts__text--address">ул. Большая<br>Конюшенная, 19/8</p>
+        <div class="contacts__item-wrap">
+          <div class="contacts__item">
+            <b class="contacts__title">Звоните</b>
+            <p class="contacts__text">
+              <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
+            </p>
+          </div>
+          <div class="contacts__item">
+            <b class="contacts__title">Пишите</b>
+            <p class="contacts__text">
+              <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            </p>
+          </div>
+          <div class="contacts__item">
+            <b class="contacts__title">Приезжайте в гости:</b>
+            <p class="contacts__text contacts__text--address">ул. Большая<br>Конюшенная, 19/8</p>
+          </div>
         </div>
         <div class="contacts__map">
-          <div class="contacts__map-marker"></div>
+          <!--<div class="contacts__map-marker"></div>-->
         </div>
       </section>
 
