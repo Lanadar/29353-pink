@@ -14,7 +14,7 @@
 .photo-item__likes-icon {
   width: 13px;
   height: 12px;
-  background-image: url('../img/icon-heart.svg');
+  background-image: url("../img/icon-heart.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@
   font-family: $font-bold;
   font-size: 12px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   line-height: 24px;
   position: absolute;
   padding: 5px 20px;

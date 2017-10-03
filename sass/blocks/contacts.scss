@@ -4,7 +4,7 @@
 }
 
 .contacts__item-wrap {
-  background-color: #fff;
+  background-color: #ffffff;
   position: relative;
   z-index: 2;
   padding-bottom: 50px;
@@ -13,7 +13,7 @@
 
 .contacts__map {
   height: 200px;
-  background-image: url('../img/bg-map-mobile@1x.png');
+  background-image: url("../img/bg-map-mobile@1x.png");
   background-color: #eae6dd;
   position: relative;
   z-index: 1;
@@ -23,7 +23,7 @@
 .contacts__map-marker {
   width: 36px;
   height: 36px;
-  background-image: url('../img/icon-map-marker.svg');
+  background-image: url("../img/icon-map-marker.svg");
 }
 
 .contacts__text {
@@ -35,8 +35,8 @@
   &--address {
     color: $second-color;
   }
-
 }
+
 .contacts__title {
   font-family: $font-bold;
   font-size: 18px;

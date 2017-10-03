@@ -16,7 +16,7 @@
 
 .price__label {
   position: absolute;
-  background-image: url('../img/bg-hit.svg');
+  background-image: url("../img/bg-hit.svg");
   background-repeat: no-repeat;
   font-size: 14px;
   line-height: 30px;
@@ -30,7 +30,7 @@
 .price__label-text {
   transform: rotate(-45deg);
   text-align: left;
-  color: #fff;
+  color: #ffffff;
   padding-left: 10px;
 }
 
@@ -44,18 +44,18 @@
   right: 20px;
 
   &--yes {
-    background-image: url('../img/icon-yes.svg');
+    background-image: url("../img/icon-yes.svg");
   }
 
   &--no {
-    background-image: url('../img/icon-no.svg');
+    background-image: url("../img/icon-no.svg");
   }
-
 }
+
 .price__title {
   font-family: $font-bold;
   font-size: 18px;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   line-height: 30px;
   margin: 0;
@@ -64,7 +64,7 @@
 .price__value {
   font-family: $font-light;
   font-size: 24px;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   line-height: 30px;
   margin: 0;

@@ -13,18 +13,17 @@
   cursor: pointer;
 
   &--form {
-    color: #fff;
+    color: #ffffff;
     background-color: #2aab6d;
 
-      &:hover {
-        background-color: #1c9b5e;
-      }
+    &:hover {
+      background-color: #1c9b5e;
+    }
 
-      &:active {
-        color: transparentize(#fff,0.7);
-      }
+    &:active {
+      color: transparentize(#ffffff, 0.7);
+    }
   }
-
 }
 
 .button-rounded {
@@ -46,48 +45,48 @@
 
     &:hover {
       background-color: $second-color;
-      color: #fff;
+      color: #ffffff;
     }
 
     &:active {
-      color: transparentize(#fff,0.7);
+      color: transparentize(#ffffff, 0.7);
     }
   }
 
   &--cancel {
-    color: transparentize($second-color,0.9);
+    color: transparentize($second-color, 0.9);
     background-color: transparent;
-    border: 2px solid transparentize($second-color,0.9);
+    border: 2px solid transparentize($second-color, 0.9);
 
     &:hover {
-      color: transparentize($main-color,0.7);
-      border: 2px solid transparentize($main-color,0.7);
+      color: transparentize($main-color, 0.7);
+      border: 2px solid transparentize($main-color, 0.7);
     }
 
     &:active {
       background-color: #b5b9be;
-      color: transparentize(#fff,0.7);
+      color: transparentize(#ffffff, 0.7);
       border: 2px solid #b5b9be;
     }
   }
 
   &--download {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
-    border: 3px solid #fff;
+    border: 3px solid #ffffff;
     padding: 15px 40px;
     display: block;
     max-width: 280px;
     margin: 0 auto;
 
     &:hover {
-      background-color: #fff;
+      background-color: #ffffff;
       color: $second-color;
     }
 
     &:active {
-      background-color: #fff;
-      color: transparentize($second-color,0.7);
+      background-color: #ffffff;
+      color: transparentize($second-color, 0.7);
     }
   }
 }

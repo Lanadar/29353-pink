@@ -45,7 +45,8 @@
     border: 2px solid $main-color;
   }
 
-  &:active, &:focus {
+  &:active,
+  &:focus {
     border: 2px solid $second-color;
   }
 }
@@ -75,7 +76,8 @@
     border: 2px solid $main-color;
   }
 
-  &:active, &:focus {
+  &:active,
+  &:focus {
     border: 2px solid $second-color;
   }
 }
