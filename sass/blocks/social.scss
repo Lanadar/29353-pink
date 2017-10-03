@@ -25,12 +25,12 @@
   padding: 13px;
   box-sizing: border-box;
   border-radius: 30px;
-}
 
-.social__item:hover {
-  border: 3px solid $main-color;
-}
+  &:hover {
+    border: 3px solid $main-color;
+  }
 
-.social__item:active {
-  border: 3px solid #eaebed;
+  &:active {
+    border: 3px solid #eaebed;
+  }
 }

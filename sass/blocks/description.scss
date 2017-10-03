@@ -9,6 +9,11 @@
   margin: 0 -20px;
 }
 
+.description__item {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 .description__slogan {
   font-family: $font-light;
   font-size: 24px;

@@ -12,17 +12,82 @@
   outline: none;
   cursor: pointer;
 
-  &--success {
+  &--form {
     color: #fff;
     background-color: #2aab6d;
+
+      &:hover {
+        background-color: #1c9b5e;
+      }
+
+      &:active {
+        color: transparentize(#fff,0.7);
+      }
   }
 
-  &--success:hover {
-    background-color: #1c9b5e;
+}
+
+.button-rounded {
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 35px;
+  outline: none;
+  width: 320px;
+  max-width: 100%;
+  cursor: pointer;
+
+  &--submit {
+    color: $second-color;
+    background-color: transparent;
+    border: 2px solid $second-color;
+
+    &:hover {
+      background-color: $second-color;
+      color: #fff;
+    }
+
+    &:active {
+      color: transparentize(#fff,0.7);
+    }
   }
 
-  &--success:active {
-    color: transparentize(#fff,0.7);
+  &--cancel {
+    color: transparentize($second-color,0.9);
+    background-color: transparent;
+    border: 2px solid transparentize($second-color,0.9);
+
+    &:hover {
+      color: transparentize($main-color,0.7);
+      border: 2px solid transparentize($main-color,0.7);
+    }
+
+    &:active {
+      background-color: #b5b9be;
+      color: transparentize(#fff,0.7);
+      border: 2px solid #b5b9be;
+    }
   }
 
+  &--download {
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 15px 40px;
+    display: block;
+    max-width: 280px;
+    margin: 0 auto;
+
+    &:hover {
+      background-color: #fff;
+      color: $second-color;
+    }
+
+    &:active {
+      background-color: #fff;
+      color: transparentize($second-color,0.7);
+    }
+  }
 }

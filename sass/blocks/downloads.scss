@@ -24,28 +24,6 @@
 
 }
 
-.downloads__button {
-  font-family: $font-bold;
-  font-size: 18px;
-  line-height: 18px;
-  color: #fff;
-  text-decoration: none;
-  border: 3px solid #fff;
-  border-radius: 40px;
-  padding: 15px 40px;
-  cursor: pointer;
-}
-
-.downloads__button:hover {
-  background-color: #fff;
-  color: $second-color;
-}
-
-.downloads__button:active {
-  background-color: #fff;
-  color: transparentize($second-color,0.7);
-}
-
 .downloads__text {
   font-family: $font-light;
   color: #fff;

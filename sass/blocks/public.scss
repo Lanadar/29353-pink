@@ -3,56 +3,14 @@
   padding: 20px;
 }
 
+.public__form {
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .public__submit {
-  font-family: $font-bold;
-  font-size: 18px;
-  color: $second-color;
-  line-height: 18px;
-  text-align: center;
-  background-color: transparent;
-  border: 2px solid $second-color;
-  padding: 20px 0;
-  border-radius: 35px;
-  outline: none;
-  width: 320px;
-  max-width: 100%;
-  cursor: pointer;
-}
-
-.public__submit:hover {
-  background-color: $second-color;
-  color: #fff;
-}
-
-.public__submit:active {
-  color: transparentize(#fff,0.7);
-}
-
-.public__cancel {
-  font-family: $font-bold;
-  font-size: 18px;
-  color: transparentize($second-color,0.9);
-  line-height: 18px;
-  text-align: center;
-  background-color: transparent;
-  border: 2px solid transparentize($second-color,0.9);
-  padding: 20px 0;
-  border-radius: 35px;
-  outline: none;
-  width: 320px;
-  max-width: 100%;
-  cursor: pointer;
-}
-
-.public__cancel:hover {
-  color: transparentize($main-color,0.7);
-  border: 2px solid transparentize($main-color,0.7);
-}
-
-.public__cancel:active {
-  background-color: #b5b9be;
-  color: transparentize(#fff,0.7);
-  border: 2px solid #b5b9be;
+  margin-bottom: 10px;
 }
 
 .public__button-wrap {

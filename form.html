@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <title>Конкурс</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
 
-    <header class="page-header">
+    <header class="page-header page-header--open">
       <a class="page-header__logo" href="index.html">
         <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Мобильное приложение «Пинк»">
       </a>
@@ -43,15 +44,15 @@
         <p class="form__desc">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
         <form class="form__main" action="https://echo.htmlacademy.ru" method="POST">
           <div class="form__field-wrap">
-            <label class="form__label" for="surname">Фамилия:</label><br>
+            <label class="form__label" for="surname">Фамилия:</label>
             <input class="form__field" type="text" name="surname" id="surname" placeholder="Укажите фамилию *">
           </div>
           <div class="form__field-wrap">
-            <label class="form__label" for="name">Имя:</label><br>
+            <label class="form__label" for="name">Имя:</label>
             <input class="form__field" type="text" name="name" id="name" placeholder="Введите ваше имя *">
           </div>
           <div class="form__field-wrap">
-            <label class="form__label" for="patronymic">Отчество:</label><br>
+            <label class="form__label" for="patronymic">Отчество:</label>
             <input class="form__field" type="text" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже">
           </div>
           <fieldset class="form__achievement-wrapper">
@@ -64,11 +65,11 @@
             <label class="form__label-select"><input class="form__checkbox" type="checkbox" name="achievement[]" value="6"> Разгромил отель</label>
           </fieldset>
           <div class="form__field-wrap">
-            <label class="form__label" for="phone">Номер телефона:</label><br>
+            <label class="form__label" for="phone">Номер телефона:</label>
             <input class="form__field" type="tel" name="phone" id="phone" placeholder="Номер, пожалуйста">
           </div>
           <div class="form__field-wrap">
-            <label class="form__label" for="email">Адрес почты:</label><br>
+            <label class="form__label" for="email">Адрес почты:</label>
             <input class="form__field" type="email" name="email" id="email" placeholder="Введите почту *">
           </div>
           <fieldset class="form__app-wrapper">
@@ -78,28 +79,12 @@
             <label class="form__label-select"><input class="form__radio" type="radio" name="app[]" value="3"> Windows Phone</label>
           </fieldset>
           <div class="form__field-wrap">
-            <label class="form__textarea-label" for="message">Опишите свои эмоции</label><br>
+            <label class="form__textarea-label" for="message">Опишите свои эмоции</label>
             <textarea class="form__textarea-field" rows="5" cols="45" name="message" id="message" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
           </div>
-          <button class="form__submit button button--success" type="submit">Отправить форму</button>
+          <button class="form__submit button button--form" type="submit">Отправить форму</button>
           <p class="form__rules"><sup>*</sup> — обязательные поля</p>
         </form>
-      </section>
-
-      <section class="modal modal-form-error">
-        <h2 class="modal__title">Что-то пошло не так!</h2>
-        <p class="modal__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-        <div class="modal__button-wrap">
-          <button class="modal__close button button--success">Ok</button>
-        </div>
-      </section>
-
-      <section class="modal modal-form-success">
-        <h2 class="modal__title">Ваша заявка отправлена</h2>
-        <p class="modal__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
-        <div class="modal__button-wrap">
-          <button class="modal__close button button--success">Закрыть окно</button>
-        </div>
       </section>
 
     </main>
@@ -132,6 +117,24 @@
         </a>
       </div>
     </footer>
+
+    <div class="modal">
+      <div class="modal__form-error">
+        <h2 class="modal__title">Что-то пошло не так!</h2>
+        <p class="modal__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        <div class="modal__button-wrap">
+          <button class="modal__close button button--form">Ok</button>
+        </div>
+      </div>
+
+      <div class="modal__form-success">
+        <h2 class="modal__title">Ваша заявка отправлена</h2>
+        <p class="modal__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+        <div class="modal__button-wrap">
+          <button class="modal__close button button--form">Закрыть окно</button>
+        </div>
+    </div>
+    </div>
 
   </body>
 </html>

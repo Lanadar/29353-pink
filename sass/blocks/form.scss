@@ -5,17 +5,21 @@
 .form__achievement-wrapper {
   background-color: #f2f2f2;
   border: none;
+  margin: 40px -20px;
 }
 
 .form__app-wrapper {
   background-color: #f2f2f2;
   border: none;
+  margin: 40px -20px;
 }
 
 .form__label {
   color: $second-color;
   text-transform: uppercase;
   line-height: 30px;
+  margin: 20px 0 5px 20px;
+  display: block;
 }
 
 .form__textarea-label {
@@ -23,6 +27,8 @@
   text-transform: uppercase;
   line-height: 30px;
   text-align: center;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .form__textarea-field {
@@ -31,14 +37,17 @@
   border: 2px solid #e5e5e5;
   padding: 15px 20px;
   outline: none;
-}
+  max-width: 280px;
+  box-sizing: border-box;
+  border-radius: 2px;
 
-.form__textarea-field:hover {
-  border: 2px solid $main-color;
-}
+  &:hover {
+    border: 2px solid $main-color;
+  }
 
-.form__textarea-field:active, .form__textarea-field:focus {
-  border: 2px solid $second-color;
+  &:active, &:focus {
+    border: 2px solid $second-color;
+  }
 }
 
 .form__legend {
@@ -58,14 +67,17 @@
   border: 2px solid #e5e5e5;
   padding: 15px 20px;
   outline: none;
-}
+  width: 280px;
+  box-sizing: border-box;
+  border-radius: 2px;
 
-.form__field:hover {
-  border: 2px solid $main-color;
-}
+  &:hover {
+    border: 2px solid $main-color;
+  }
 
-.form__field:active, .form__field:focus {
-  border: 2px solid $second-color;
+  &:active, &:focus {
+    border: 2px solid $second-color;
+  }
 }
 
 .form__label-select {
@@ -86,4 +98,8 @@
 .form__desc {
   line-height: 30px;
   text-align: center;
+}
+
+.form__submit {
+  margin: 40px 0;
 }
