@@ -1,0 +1,64 @@
+.rounded-button {
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 35px;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &--submit {
+    color: $second-color;
+    background-color: transparent;
+    border: 2px solid $second-color;
+    width: 280px;
+
+    &:hover {
+      background-color: $second-color;
+      color: #ffffff;
+    }
+
+    &:active {
+      color: transparentize(#ffffff, 0.7);
+    }
+  }
+
+  &--cancel {
+    color: transparentize($main-color, 0.9);
+    background-color: transparent;
+    border: 2px solid transparentize($main-color, 0.9);
+    width: 280px;
+
+    &:hover {
+      color: transparentize($main-color, 0.7);
+      border: 2px solid transparentize($main-color, 0.7);
+    }
+
+    &:active {
+      background-color: #b5b9be;
+      color: transparentize(#ffffff, 0.7);
+      border: 2px solid #b5b9be;
+    }
+  }
+
+  &--download {
+    color: #ffffff;
+    text-decoration: none;
+    border: 3px solid #ffffff;
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+
+    &:hover {
+      background-color: #ffffff;
+      color: $second-color;
+    }
+
+    &:active {
+      background-color: #ffffff;
+      color: transparentize($second-color, 0.7);
+    }
+  }
+}

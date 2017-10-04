@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Мобильное приложение «Пинк»</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
 
-    <header class="page-header">
+    <header class="page-header page-header--open">
       <a class="page-header__logo">
-        <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Мобильное приложение «Пинк»">
+        <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Мобильное приложение «Пинк»">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
@@ -33,16 +35,14 @@
 
     <main class="page-main">
 
-      <section class="banner">
+      <section class="intro intro--main">
         <h1 class="visually-hidden">Мобильное приложение «Пинк»</h1>
-        <div class="banner__image-wrapper">
-          <img class="banner__image" src="http://placehold.it/320x314" width="320" height="314" alt="Мобильное приложение «Пинк»">
-        </div>
+        <div class="intro__image"></div>
       </section>
 
       <section class="downloads">
         <h2 class="visually-hidden">Загрузить мобильное приложение «Пинк»</h2>
-        <a class="downloads__button" href="https://www.apple.com/itunes/">Скачать приложение</a>
+        <a class="downloads__button rounded-button rounded-button--download" href="https://www.apple.com/itunes/">Скачать приложение</a>
         <ul class="downloads__list">
           <li class="downloads__item">
             <a class="downloads__link" href="https://www.apple.com/itunes/">
@@ -81,8 +81,8 @@
             <p class="description__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
-        <div class="description__image iphone">
-          <img class="iphone__image" src="http://placehold.it/157x320" width="157" height="320" alt="Мобильное приложение «Пинк»">
+        <div class="description__image-wrap">
+          <img class="description__image" src="img/iphone-screen-mobile@1x.png" width="157" height="320" alt="Мобильное приложение «Пинк»">
         </div>
       </section>
 
@@ -137,7 +137,9 @@
             </li>
             <li class="price__item price__item--active slider__item">
               <header class="price__header">
-                <div class="price__label">Хит</div>
+                <div class="price__label">
+                  <div class="price__label-text">Хит</div>
+                </div>
                 <h3 class="price__title">Стандарт</h3>
                 <p class="price__value">3,99 USD</p>
               </header>
@@ -188,23 +190,27 @@
       <section class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <p class="contacts__text">Остались вопросы?<br>Свяжитесь с нами!</p>
-        <div class="contacts__item">
-          <b class="contacts__title">Звоните</b>
-          <p class="contacts__text">
-            <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
-          </p>
+        <div class="contacts__item-wrap">
+          <div class="contacts__item">
+            <b class="contacts__title">Звоните</b>
+            <p class="contacts__text">
+              <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
+            </p>
+          </div>
+          <div class="contacts__item">
+            <b class="contacts__title">Пишите</b>
+            <p class="contacts__text">
+              <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            </p>
+          </div>
+          <div class="contacts__item">
+            <b class="contacts__title">Приезжайте в гости:</b>
+            <p class="contacts__text contacts__text--address">ул. Большая<br>Конюшенная, 19/8</p>
+          </div>
         </div>
-        <div class="contacts__item">
-          <b class="contacts__title">Пишите</b>
-          <p class="contacts__text">
-            <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          </p>
+        <div class="contacts__map">
+          <!--<div class="contacts__map-marker"></div>-->
         </div>
-        <div class="contacts__item">
-          <b class="contacts__title">Приезжайте в гости:</b>
-          <p class="contacts__text">ул. Большая<br>Конюшенная, 19/8</p>
-        </div>
-        <div class="contacts__map"></div>
       </section>
 
     </main>

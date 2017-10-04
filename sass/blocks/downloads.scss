@@ -1,0 +1,30 @@
+.downloads {
+  background-color: #1d2631;
+  padding: 45px 20px 28px;
+  text-align: center;
+}
+
+.downloads__icon {
+  width: 50px;
+  height: 60px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  &--ios {
+    background-image: url("../img/logo-apple.svg");
+  }
+
+  &--android {
+    background-image: url("../img/logo-android.svg");
+  }
+
+  &--windows {
+    background-image: url("../img/logo-microsoft.svg");
+  }
+}
+
+.downloads__text {
+  font-family: $font-light;
+  color: #ffffff;
+  line-height: 24px;
+}

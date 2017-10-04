@@ -1,0 +1,28 @@
+.button {
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 30px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &--form {
+    width: 280px;
+    max-width: 100%;
+    color: #ffffff;
+    background-color: #2aab6d;
+
+    &:hover {
+      background-color: #1c9b5e;
+    }
+
+    &:active {
+      color: transparentize(#ffffff, 0.7);
+    }
+  }
+}

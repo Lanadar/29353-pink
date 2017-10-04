@@ -1,0 +1,39 @@
+.description {
+  padding: 45px 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.description__list {
+  background-color: #f2f2f2;
+  padding-bottom: 325px;
+  margin: 0 -20px;
+}
+
+.description__item {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.description__slogan {
+  font-family: $font-light;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.description__title {
+  font-family: $font-bold;
+  color: #000000;
+  font-size: 18px;
+}
+
+.description__text {
+  line-height: 24px;
+}
+
+.description__image-wrap {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  margin-left: -78px;
+}

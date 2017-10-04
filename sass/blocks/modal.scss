@@ -1,0 +1,33 @@
+.modal__form {
+  padding: 45px 20px 0;
+  box-shadow: 0 7px 15px rgba(#000000, 0.15);
+  text-align: center;
+}
+
+.modal__text {
+  margin-bottom: 20px;
+}
+
+.modal__title {
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.modal__button-wrap {
+  padding: 50px 20px;
+  margin: 0 -20px;
+
+  &--success {
+    background-color: #f2f2f2;
+  }
+}
+
+.modal__close {
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #2aab6d;
+}
