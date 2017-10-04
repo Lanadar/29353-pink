@@ -2,17 +2,17 @@
   font-family: $font-bold;
   font-size: 18px;
   line-height: 30px;
-  width: 320px;
-  max-width: 100%;
   border: none;
   text-align: center;
   text-transform: uppercase;
-  padding: 20px 0;
+  padding: 20px;
   border-radius: 2px;
   outline: none;
   cursor: pointer;
 
   &--form {
+    width: 280px;
+    max-width: 100%;
     color: #ffffff;
     background-color: #2aab6d;
 
@@ -22,71 +22,6 @@
 
     &:active {
       color: transparentize(#ffffff, 0.7);
-    }
-  }
-}
-
-.button-rounded {
-  font-family: $font-bold;
-  font-size: 18px;
-  line-height: 18px;
-  text-align: center;
-  padding: 20px 0;
-  border-radius: 35px;
-  outline: none;
-  width: 320px;
-  max-width: 100%;
-  cursor: pointer;
-
-  &--submit {
-    color: $second-color;
-    background-color: transparent;
-    border: 2px solid $second-color;
-
-    &:hover {
-      background-color: $second-color;
-      color: #ffffff;
-    }
-
-    &:active {
-      color: transparentize(#ffffff, 0.7);
-    }
-  }
-
-  &--cancel {
-    color: transparentize($second-color, 0.9);
-    background-color: transparent;
-    border: 2px solid transparentize($second-color, 0.9);
-
-    &:hover {
-      color: transparentize($main-color, 0.7);
-      border: 2px solid transparentize($main-color, 0.7);
-    }
-
-    &:active {
-      background-color: #b5b9be;
-      color: transparentize(#ffffff, 0.7);
-      border: 2px solid #b5b9be;
-    }
-  }
-
-  &--download {
-    color: #ffffff;
-    text-decoration: none;
-    border: 3px solid #ffffff;
-    padding: 15px 40px;
-    display: block;
-    max-width: 280px;
-    margin: 0 auto;
-
-    &:hover {
-      background-color: #ffffff;
-      color: $second-color;
-    }
-
-    &:active {
-      background-color: #ffffff;
-      color: transparentize($second-color, 0.7);
     }
   }
 }
