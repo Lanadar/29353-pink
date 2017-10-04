@@ -1,6 +1,9 @@
 .reviews {
   padding: 50px 20px;
   text-align: center;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
 }
 
 .reviews__name {

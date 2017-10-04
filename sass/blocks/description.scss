@@ -1,6 +1,7 @@
 .description {
-  padding: 45px 20px;
+  padding: 45px 20px 0;
   text-align: center;
+  position: relative;
 }
 
 .description__list {
@@ -31,5 +32,8 @@
 }
 
 .description__image-wrap {
-  margin-top: -325px;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  margin-left: -78px;
 }
